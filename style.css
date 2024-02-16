@@ -139,8 +139,19 @@ form button:hover {
     border-color: #1e3163; /* Cor da borda também muda */
 }
 
-@media only screen and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
+    .form-section {
+        max-width: 300px; /* Reduz a largura máxima do formulário para telas menores */
+    }
+
+    input,
+    textarea,
+    button {
+        padding: 8px; /* Reduz o padding dos elementos */
+    }
 }
+
 
 /* pagina obrigado */
 
@@ -178,25 +189,20 @@ form button:hover {
 }
 
 
-@media screen and (max-width: 600px) {
-    .container {
-        padding: 10px;
+
+  @media screen and (max-width: 600px) {
+    .text {
+        font-size: 30px; /* Reduz o tamanho do texto */
     }
 
-    .form-section {
-        padding: 10px;
+    .paragrafo {
+        margin-bottom: 30px; /* Reduz a margem inferior do parágrafo */
     }
 
-    input,
-    textarea {
-        padding: 8px;
-    }
-
-    button {
-        padding: 8px 16px;
+    .btn {
+        padding: 10px 40px; /* Reduz o padding do botão */
     }
 }
-
 
 
 
