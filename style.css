@@ -178,5 +178,30 @@ form button:hover {
 }
 
 
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .form-section {
+        padding: 10px;
+    }
+
+    input,
+    textarea {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+
+
+
+
+
+
 
 
