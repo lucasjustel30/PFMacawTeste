@@ -177,27 +177,6 @@ form button:hover {
 }
 
 
-@media screen and (max-width: 600px) {
-    .form-section {
-        max-width: 300px;
-    }
-
-    form input,
-    form textarea,
-    form button {
-        padding: 8px;
-    }
-
-    section h2 {
-        font-size: 2rem; /* Reduz o tamanho do título */
-    }
-
-    .btn {
-        padding: 10px 40px;
-        font-size: 16px; /* Reduz o tamanho da fonte do botão */
-    }
-}
-
 
 
 
