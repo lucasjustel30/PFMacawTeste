@@ -1,0 +1,34 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <img src="img/foto.PNG" alt="Descrição da imagem">
+    <div class="container">
+        <section class="form-section">
+            <h2>Pessoa Física</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                <label>Telefone e o quanto pretende investir</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite o seu telefone com DDD e o quanto pretende investir" required></textarea>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="accessKey" value="6ff55fce-addb-4ca2-905d-d4090bfd6efe">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
+
+

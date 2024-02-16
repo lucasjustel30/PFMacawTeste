@@ -1,0 +1,182 @@
+
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem ocupe todo o espaço do contêiner */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Para garantir que a imagem fique atrás do formulário */
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.form-section {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com opacidade */
+    padding: 20px;
+    max-width: 400px; /* Defina a largura máxima do formulário */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-left: 600px;
+}
+.form-section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* new */
+
+.name {
+    background-color: white;
+}
+
+.email {
+    background-color: white;
+}
+
+.message {
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #101026;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+section h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    text-align: center;
+    color: black; /* Altera a cor do texto para preto */
+}
+
+
+form label{
+    color: black;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+    border-radius: 30px;
+} 
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0; 
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    border-radius: 30px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: black;
+    transition: all 1s;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+form button:hover {
+    background-color: #778fcc; /* Cor azul escura */
+    border-color: #1e3163; /* Cor da borda também muda */
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+/* pagina obrigado */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #101026;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 45px;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 15px 55px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #101026;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #778fcc; /* Cor alterada quando o mouse estiver em cima */
+    border-color: #324c8f; /* Cor da borda alterada quando o mouse estiver em cima */
+}
+
+
+
+
